@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+  }
+  hr{
+    width: 2px;
+    background-color: #ababab;
+  }
+  body{
+background : rgb( 0,0,0);
+
+    color :chartreuse;
+  }
+  #header{
+    width: 100%;
+    height : 100vh;
+    background-image: url(https://th.bing.com/th/id/OIP.rSAjab-xskyZ511RLz34GgHaEn?rs=1&pid=ImgDetMain);
+    background-size : cover;
+    background-position: center;
+  }
+  .container{
+    padding: 10px 10%;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  } 
+  .logo
+  {
+    width:140px;
+  }
+  nav ul li
+  {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  }
+  nav ul li a
+  {
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+  }
+  nav ul li a::after{
+    width:0;
+    content:'';
+    height:3px;
+    background:orange;
+    position:absolute;
+    left:0;
+    bottom:-6px;
+  }
+  nav ul li a:hover::after{
+    width: 100%;
+    transition:0.5s;
+  }
+  h1
+  {
+    margin-top:20%;
+    font-size:60px;
+  }
+  h1 span{
+    color:aqua;
+  }
+  .image1
+  {
+    width:200px;
+  }
+  #about
+  {
+    padding: 60px 0;
+    color:#ababab;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .col-1
+  {
+    flex-basis: 35%;
+  }
+  .col-1 img
+  {
+    width:100%;
+    border-radius : 15px;
+  }
+  .col-2
+  {
+    flex-basis: 60%;
+  }
+  .col-2 h1
+  {
+    margin-top: 0;
+    font-weight:bold;
+    color:white;
+  }
+  .col-2 p
+  {
+    margin-left: 0;
+    font-size : 25px;
+  }
+  .col-2 span
+  {
+    font-size : 40px;
+  }
+  .row_list
+  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .details1
+  {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .details1 span
+  {
+    font-size: 50px;
+    color:aqua;
+  }
+  .details1 span:hover
+  {
+    color: white;
+    transition: 0.5s;
+  }
+  .details2
+  {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .details2 span
+  {
+    font-size: 50px;
+    color: aqua;
+  }
+  .details2 span:hover
+  {
+    color: white;
+    transition: 0.5s;
+  }
+  .tab-links
+  {
+    margin-right: 55px;
+    font-size: 52px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    margin-left : 650px;
+  }
+  .project
+  {
+    font-size : 30px;
+  }
+  .head
+  {
+    font-size : 50px;
+  }
+  .head
+  {
+    margin-left: 660px;
+  }
+  .contact table
+  {
+    margin-left : 450px;
+    font-size : 30px;
+  }
+  .contact_img1
+  {
+    width: 80px;
+    height: 80px;
+    margin-left: 450px;
+  }
+  .contact_img2
+  {
+    width: 100px;
+    height: 100px;
+    margin-left: 160px;
+  }
+  .contact_img3
+  {
+    width: 90px;
+    height: 90px;
+    margin-left: 190px;
+  }
+  .contact span
+  {
+    color: red;
+  }
+  html
+  {
+    scroll-behavior: smooth;
+  }
+  
+  
